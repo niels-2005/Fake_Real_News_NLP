@@ -1,5 +1,4 @@
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import FunctionTransformer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer, TfidfTransformer
 from sklearn.linear_model import LogisticRegression, RidgeClassifier, PassiveAggressiveClassifier, Perceptron, SGDClassifier
 from sklearn.svm import SVC, LinearSVC
@@ -8,7 +7,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, AdaBoostClassifier, ExtraTreesClassifier, BaggingClassifier
 from sklearn.naive_bayes import MultinomialNB
 from xgboost import XGBClassifier
-from lightgbm import LGBMClassifier
 import numpy as np 
 import matplotlib.pyplot as plt
 from sklearn.model_selection import cross_val_score
