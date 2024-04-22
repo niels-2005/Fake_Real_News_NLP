@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import confusion_matrix
 
+
 def make_confusion_matrix(
     y_true: np.ndarray,
     y_pred: np.ndarray,
